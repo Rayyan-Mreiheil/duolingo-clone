@@ -377,3 +377,40 @@ hr {
 }
 
 /* ##### */
+/* ##### */
+/* ##### */
+
+@media (max-width: 1035px){
+    nav, .header-end, .characteristics-section, .characteristics-section section, .power-section{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        text-align: center;
+    }
+    .lang-div{
+        visibility: hidden;
+    }
+
+    .footer-sec1 {
+        grid-template-columns: repeat(3, 216px);
+        max-width: 768px;
+        padding: 64px 40px;
+    }
+    
+}
+
+@media (max-width: 747px) {
+    .lang-div{
+        visibility: hidden;
+    }
+    .footer-sec1 {
+        grid-template-columns: repeat(1, 216px);
+        max-width: 768px;
+        padding: 64px 40px;
+        margin: auto;
+    }
+    .footer-sec2 {
+        margin: auto;
+    }
+}
