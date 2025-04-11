@@ -300,3 +300,80 @@ nav{
 }
 
 /* ### */
+
+footer {
+    background-color: rgb(88, 204, 2);
+}
+
+.footer-sec1 {
+    /* display: flex;
+    padding: 96px 0 64px;
+    justify-content: center;
+    gap: 50px; */
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(5, 178px);
+    max-width: 988px;
+    padding: 96px 0 64px;
+    margin: auto;
+}
+
+.footer-sec1 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.footer-sec1 a {
+    color: rgb(165, 237, 110);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.footer-minititle {
+    color: rgb(215, 255, 184);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.privacy-social-div {
+    /* align-content: start; */
+    display: grid;
+    gap: 32px;
+}
+
+hr {
+    border-top: 2px solid rgb(165, 237, 110);
+    margin: 0;
+}
+
+.footer-sec2 {
+    max-width: 988px;
+    padding: 40px 0 64px;
+    margin: auto;
+}
+
+.footer-sec2-title {
+    color: rgb(215, 255, 184);
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+
+.footer-li {
+    display: inline-block;
+    margin: 8px 12px;
+}
+
+.footer-a {
+    font-size: 13px;
+    color: rgb(165, 237, 110);
+    font-weight: 700;
+    line-height: 16px;
+}
+
+/* ##### */
